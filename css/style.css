@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 5px 10px 10px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  max-width: 320px;
+  align-items: center;
+}
+
+/* Users buttons */
+.users-buttons {
+  display: flex;
+  column-gap: 17px;
+}
+
+.users-buttons button {
+  background: transparent;
+  border: none;
+  opacity: 0.6;
+  padding: 0;
+}
+
+/* Burger */
+.burger {
+  background: transparent;
+  border: none;
+}
