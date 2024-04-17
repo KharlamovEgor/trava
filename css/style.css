@@ -9,13 +9,17 @@ body {
 }
 
 .container {
-  padding: 5px 10px 10px;
+  padding: 5px 25px 10px 15px;
   margin: 0 auto;
-  background-color: black;
   display: flex;
   justify-content: space-between;
-  max-width: 320px;
+  max-width: 330px;
   align-items: center;
+}
+
+/* navbar */
+.navbar {
+  background-color: black;
 }
 
 /* Users buttons */
@@ -33,6 +37,7 @@ body {
 
 /* Burger */
 .burger {
+  padding: 0;
   background: transparent;
   border: none;
 }
