@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Burbank Big Condensed Black";
+  font-display: swap;
+  font-weight: 700;
+  src: url("../fonts/burbankbigcondensed_black.otf");
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr";
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-display: swap;
+  src: url("../fonts/helvetica_bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    font-display: swap;
+    src: url("../fonts/helvetica_light.otf");
+    font-weight: 400;
+  }
+  
