@@ -5,6 +5,31 @@ body {
 .container {
   margin: 0 auto;
   max-width: 330px;
+  padding: 0 15px;
+}
+
+/* heading */
+
+.heading {
+  font-family: "Burbank Big Condensed Black";
+  color: white;
+  font-size: 40px;
+  text-shadow: 7px 6px #ffffff40;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+/* text */
+
+.text {
+  font-family: "HelveticaNeueCyr";
+  color: white;
+  font-size: 14px;
+  line-height: 1.55;
+  text-align: center;
+  letter-spacing: -0.3px;
 }
 
 /* alert */
@@ -12,7 +37,7 @@ body {
   padding: 11px;
   font-family: "Helvetica";
   text-align: center;
-  background-color: #D41D3A;
+  background-color: #d41d3a;
   font-weight: 400;
   font-size: 8px;
 }
@@ -21,6 +46,7 @@ body {
 .navbar {
   background-color: black;
 }
+
 .navbar__container {
   padding: 5px 25px 10px 15px;
   display: flex;
@@ -65,6 +91,7 @@ body {
   overflow: hidden;
   padding-bottom: 60px;
 }
+
 .header h2 {
   font-family: "Burbank Big Condensed Black";
   color: white;
@@ -74,13 +101,14 @@ body {
   margin-bottom: 5px;
   line-height: 1;
 }
+
 .header p {
   font-family: "HelveticaNeueCyr";
   color: white;
   font-size: 14px;
-  padding: 0px 10px;
   line-height: 1.5;
 }
+
 .header__button {
   margin: 20px;
   padding: 18px 76px 18px 55px;
@@ -89,16 +117,48 @@ body {
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: -0.01em;
-  background-color: #D41D3A;
+  background-color: #d41d3a;
   color: white;
-  box-shadow: 0px 0px 14.5px 0px #FFFFFF8C inset;
+  box-shadow: 0px 0px 14.5px 0px #ffffff8c inset;
   border-radius: 5px;
   border: none;
   position: relative;
 }
+
 .header__button::after {
   content: url("../images/vetoytrave.svg");
   position: absolute;
   margin-top: 1px;
   margin-left: 3px;
+}
+
+/* main */
+
+.main {
+  background-color: black;
+}
+
+/* products */
+
+.products {
+  padding-top: 80px;
+}
+
+.products__heading {
+  margin-bottom: 12px;
+}
+
+.products__grid {
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.products__cart {
+  color: white;
+}
+
+.products__rate {
+  display: flex;
 }

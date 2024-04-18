@@ -15,14 +15,13 @@
 @font-face {
   font-family: "Helvetica";
   font-display: swap;
-  src: url("../fonts/helvetica_bold.otf");
-  font-weight: 700;
+  src: url("../fonts/HELVETICA_BOLD.OTF");
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: "Helvetica";
-    font-display: swap;
-    src: url("../fonts/helvetica_light.otf");
-    font-weight: 400;
-  }
-  
+  font-family: "Helvetica";
+  font-display: swap;
+  src: url("../fonts/HELVETICA_REGULAR.OTF");
+  font-weight: 400;
+}
