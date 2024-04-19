@@ -21,6 +21,18 @@ body {
   text-transform: uppercase;
 }
 
+.heading--red {
+  margin-right: 10px;
+  font-family: "Burbank Big Condensed Black";
+  color: #d41d3a;
+  font-size: 40px;
+  text-shadow: 7px 6px #d41d3a40;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -1%;
+  text-transform: uppercase;
+}
+
 /* text */
 
 .text {
@@ -304,7 +316,7 @@ body {
 .advantages {
   padding-top: 30px;
   padding-bottom: 50px;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
 }
 
 .advantages__grid {
@@ -332,7 +344,7 @@ body {
   font-family: "Burbank Big Condensed Black";
   font-size: 36px;
   font-weight: 700;
-  text-shadow: 7px 6px #FFFFFF40;
+  text-shadow: 7px 6px #ffffff40;
   text-transform: uppercase;
 }
 
@@ -342,4 +354,159 @@ body {
   font-weight: 400;
   line-height: 1.5;
   margin: 10px;
+}
+
+/* weedtypes */
+
+.weedtypes {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.weedtypes__heading {
+  margin-bottom: 12px;
+}
+
+.weedtypes__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+  margin-top: 20px;
+}
+
+.weedtypes__cart {
+  font-family: "Helvetica";
+  font-size: 14px;
+  padding: 3px;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.weedtypes__cart--1 {
+  background-image: url("../images/weedtypes/1.svg");
+}
+
+.weedtypes__cart--2 {
+  background-image: url("../images/weedtypes/2.svg");
+}
+
+.weedtypes__cart--3 {
+  background-image: url("../images/weedtypes/3.svg");
+}
+
+.weedtypes__cart--4 {
+  background-image: url("../images/weedtypes/4.svg");
+  line-height: 1.1;
+}
+
+.weedtypes__cart--5 {
+  background-image: url("../images/weedtypes/5.svg");
+  line-height: 1.1;
+}
+
+.weedtypes__cart--6 {
+  background-image: url("../images/weedtypes/6.svg");
+}
+
+.weedtypes__cart--7 {
+  background-image: url("../images/weedtypes/7.svg");
+}
+
+.weedtypes__cart--8 {
+  background-image: url("../images/weedtypes/8.svg");
+}
+
+.weedtypes__img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.weedtypes__cart h2 {
+  margin-top: 25px;
+  font-family: "Burbank Big Condensed Black";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  text-shadow: 7px 6px #ffffff40;
+}
+
+.weedtypes p {
+}
+
+.weedtypes__button {
+  display: block;
+  margin: 15px auto 0;
+  padding: 18px 95px 18px 74px;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 0px 14.5px 0px #ffffff8c inset;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  letter-spacing: -1%;
+  text-align: center;
+}
+
+.weedtypes__button::after {
+  content: url("../images/vetoytrave.svg");
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 3px;
+}
+
+/* purposes */
+
+.purposes {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.purposes__heading {
+  margin-bottom: 12px;
+}
+
+.purposes__img img {
+  display: block;
+  margin: 0px auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* legalite */
+
+.legalite {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.legalite p {
+  font-family: "HelveticaNeueCyr";
+  color: white;
+  font-size: 13px;
+  line-height: 1.55;
+  text-align: center;
+  letter-spacing: -0.32px;
+}
+
+.legalite__heading {
+  margin-bottom: 12px;
+}
+
+.legalite__img img {
+  display: block;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
