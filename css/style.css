@@ -120,7 +120,7 @@ body {
   background-color: black;
   text-align: center;
   overflow: hidden;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .header h2 {
@@ -172,8 +172,8 @@ body {
 /* products */
 
 .products {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .products__heading {
@@ -376,8 +376,8 @@ body {
 /* weedtypes */
 
 .weedtypes {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .weedtypes__heading {
@@ -454,8 +454,7 @@ body {
   text-shadow: 7px 6px #ffffff40;
 }
 
-.weedtypes p {
-}
+.weedtypes p {}
 
 .weedtypes__button {
   display: block;
@@ -486,8 +485,8 @@ body {
 /* purposes */
 
 .purposes {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .purposes__heading {
@@ -504,8 +503,8 @@ body {
 /* legalite */
 
 .legalite {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .legalite p {
