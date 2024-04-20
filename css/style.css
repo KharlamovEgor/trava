@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Helvetica;
 }
 
 .container {
@@ -31,6 +32,26 @@ body {
   text-align: center;
   letter-spacing: -1%;
   text-transform: uppercase;
+}
+
+.heading--small {
+  font-size: 2.25rem;
+  text-align: start;
+}
+
+.heading--black {
+  color: black;
+}
+
+/* supheading */
+
+.supheading {
+  font-size: 1.5rem;
+  font-family: "Burbank Big Condensed Black";
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 7px 6px #ffffff40;
 }
 
 /* text */
@@ -454,8 +475,7 @@ body {
   text-shadow: 7px 6px #ffffff40;
 }
 
-.weedtypes p {
-}
+.weedtypes p {}
 
 .weedtypes__button {
   display: block;
@@ -712,4 +732,96 @@ body {
   position: absolute;
   margin-top: 1px;
   margin-left: 3px;
+}
+
+/* cards */
+
+.cards {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cards__item {
+  border-radius: 5px;
+  height: 221px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-repeat: no-repeat;
+}
+
+.cards__item:first-child {
+  margin-bottom: 15px;
+}
+
+.cards__item--1 {
+  background-image: url("../images/cards/1.svg");
+  background-color: #bb3cff;
+}
+
+.cards__item--2 {
+  background-image: url("../images/cards/2.svg");
+  background-color: #98ccef;
+}
+
+.cards__button {
+  color: white;
+  border: none;
+  background-color: #d41d3a;
+  box-shadow: 0px 0px 10.09px 0px #ffffff8c inset;
+  font-size: 0.7rem;
+  font-weight: 400;
+  padding: 17px 31px;
+  border-radius: 4px;
+  margin-top: auto;
+}
+
+/* footer */
+
+.footer {
+  padding-top: 22px;
+  border-top: 1px solid #282828;
+  color: #bababa;
+  font-size: 0.875rem;
+  background-color: black;
+  overflow: hidden;
+  line-height: 1.86;
+}
+
+.footer__block {
+  margin-bottom: 23px;
+}
+
+.footer__block img {
+  display: inline;
+}
+
+.footer__block h3 {
+  color: #d41d3a;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer__block ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* payments */
+
+.payments {
+  border-top: 1px solid #282828;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.payments__images {
+  margin-top: 10px;
+}
+
+.payments__images img {
+  display: inline;
 }
