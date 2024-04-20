@@ -1,784 +1,857 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binks</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/glide.core.css" />
+    <link rel="stylesheet" href="css/accordion.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/font.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Binks</title>
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/glide.core.css" />
-  <link rel="stylesheet" href="css/accordion.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/font.css" />
-</head>
-
-<body>
-  <div class="alert">
-    <b>LIVRAISON OFFERTE EN FRANCE</b> à partir de 69€ d'achats
-  </div>
-  <nav class="navbar">
-    <div class="container navbar__container">
-      <button class="burger"><img src="images/burger.svg" alt="" /></button>
-      <div class="logo">
-        <img src="images/logo.png" alt="" />
-      </div>
-      <div class="users-buttons">
-        <button><img src="images/chel.svg" alt="" /></button>
-        <button><img src="images/cart.svg" alt="" /></button>
-      </div>
+  <body>
+    <div class="alert">
+      <b>LIVRAISON OFFERTE EN FRANCE</b> à partir de 69€ d'achats
     </div>
-  </nav>
-  <header class="header">
-    <div class="container header__content">
-      <h2>BIENVENUE DANS LE BINKS DU CBD</h2>
-      <p>
-        Marre du stress? Binks CBD est ton nouveau dealer de détente légale.
-        Huiles relaxantes, gummies qui dépotent - on a tout pour <br />
-        planer au pays du chill, sans risque,
-        <br />de descente de police. Livraison express, détente assurée.
-      </p>
-      <button class="header__button">Voir le Menu</button>
-    </div>
-  </header>
-  <main class="main">
-    <div class="products container">
-      <h2 class="heading products__heading">Notre Selection</h2>
-      <p class="text">
-        On a trié sur le volet les meilleures fleurs, huiles, gummies et tout
-        le bazar légal. Pas besoin de se prendre la tête avec des tisanes
-        ringardes, on te<br /> propose du chill de qualité, point barre.<br />
-        Détends-toi, on s'occupe du reste. Fini le stress<br /> et les
-        insomnies, rejoins la team Binks et chill<br /> en toute légalité.
-      </p>
-      <div class="products__grid">
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
+    <nav class="navbar">
+      <div class="container navbar__container">
+        <button class="burger"><img src="images/burger.svg" alt="" /></button>
+        <div class="logo">
+          <img src="images/logo.png" alt="" />
         </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
+        <div class="users-buttons">
+          <button><img src="images/chel.svg" alt="" /></button>
+          <button><img src="images/cart.svg" alt="" /></button>
         </div>
       </div>
-      <button class="products__button">Les Top ventes CBD</button>
-    </div>
-    <div class="prefers">
-      <div class="container">
-        <h2 class="prefers__heading heading">
-          Quels sont les bienfaits du cbd?
+    </nav>
+    <header class="header">
+      <div class="container header__content">
+        <h2>BIENVENUE DANS LE BINKS DU CBD</h2>
+        <p>
+          Marre du stress? Binks CBD est ton nouveau dealer de détente légale.
+          Huiles relaxantes, gummies qui dépotent - on a tout pour <br />
+          planer au pays du chill, sans risque,
+          <br />de descente de police. Livraison express, détente assurée.
+        </p>
+        <button class="header__button">Voir le Menu</button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="products container">
+        <h2 class="heading products__heading">Notre Selection</h2>
+        <p class="text">
+          On a trié sur le volet les meilleures fleurs, huiles, gummies et tout
+          le bazar légal. Pas besoin de se prendre la tête avec des tisanes
+          ringardes, on te<br /> propose du chill de qualité, point barre.<br />
+          Détends-toi, on s'occupe du reste. Fini le stress<br /> et les
+          insomnies, rejoins la team Binks et chill<br /> en toute légalité.
+        </p>
+        <div class="products__grid">
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+        </div>
+        <button class="products__button">Les Top ventes CBD</button>
+      </div>
+      <div class="prefers">
+        <div class="container">
+          <h2 class="prefers__heading heading">
+            Quels sont les bienfaits du cbd?
+          </h2>
+          <p class="text">
+            Oublie les tisanes ringardes, le CBD Binks CBD est ton nouveau
+            secret pour te transformer<br />
+            en maître de ton bien-être. Stress, anxiété, douleurs chroniques, on
+            s'en fout - le CBD<br />
+            est là pour te soulager, te faire dormir comme<br />
+            un bébé et récupérer à la vitesse de l'éclair.<br />
+            100% naturel et sans effets secondaires, le<br />
+            CBD Binks CBD t'aide à améliorer ton sommeil,<br />
+            réduire l'inflammation et vivre mieux.<br />
+            Deviens la meilleure version de toi-même,<br />
+            rejoins la team Binks et découvre<br />
+            le pouvoir du CBD !
+          </p>
+          <div class="prefers__grid">
+            <figure class="prefers__item">
+              <img src="./images/prefers/1.svg" alt="" />
+              <figcaption>
+                Améliore<br />
+                le sommeil
+              </figcaption>
+            </figure>
+            <figure class="prefers__item">
+              <img src="./images/prefers/2.svg" alt="" />
+              <figcaption>
+                Relaxant <br />
+                et anti-stress
+              </figcaption>
+            </figure>
+            <figure class="prefers__item">
+              <img src="./images/prefers/3.svg" alt="" />
+              <figcaption>
+                Anti<br />
+                inflammatoire
+              </figcaption>
+            </figure>
+            <figure class="prefers__item">
+              <img src="./images/prefers/4.svg" alt="" />
+              <figcaption>
+                Diminue<br />
+                ta conso<br />
+                de cannabis
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="advantages">
+        <div class="container">
+          <div class="advantages__grid">
+            <figure class="advantages__item">
+              <img src="./images/advantages/1.webp" alt="" />
+              <h2>Made in France</h2>
+              <figcaption>
+                Nos huiles et fleurs CBD, cultivées par des <br />
+                agriculteurs français en or, sont stockées en <br />
+                France pour des livraisons ultra-rapides. <br />
+                Qualité locale, détente globale !
+              </figcaption>
+            </figure>
+            <figure class="advantages__item">
+              <img src="./images/advantages/2.webp" alt="" />
+              <h2>Qualité Premium</h2>
+              <figcaption>
+                On as reuni un cocktail explosif de molécules <br />
+                chill (CBD, CBG, CBN, terpènes...) cultivées <br />
+                en bio. C'est la nature qui détend, on te <br />
+                fournit juste le meilleur. Pas de blabla <br />
+                scientifique, juste du chill en version XXL.
+              </figcaption>
+            </figure>
+            <figure class="advantages__item">
+              <img src="./images/advantages/3.webp" alt="" />
+              <h2>Livraison en 24 / 48h</h2>
+              <figcaption>
+                Commande aujourd'hui, reçois demain ! <br />
+                Ton colis est expédié sous 24h à 48h <br />
+                ouvrables. Pas de stress, c'est confidentiel ! <br />
+                Emballage neutre et sans label pour une <br />
+                discrétion optimale.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="weedtypes container">
+        <h2 class="heading weedtypes__heading">
+          Envie de chiller ? <br />
+          On décolle quand ?
         </h2>
         <p class="text">
-          Oublie les tisanes ringardes, le CBD Binks CBD est ton nouveau
-          secret pour te transformer<br />
-          en maître de ton bien-être. Stress, anxiété, douleurs chroniques, on
-          s'en fout - le CBD<br />
-          est là pour te soulager, te faire dormir comme<br />
-          un bébé et récupérer à la vitesse de l'éclair.<br />
-          100% naturel et sans effets secondaires, le<br />
-          CBD Binks CBD t'aide à améliorer ton sommeil,<br />
-          réduire l'inflammation et vivre mieux.<br />
-          Deviens la meilleure version de toi-même,<br />
-          rejoins la team Binks et découvre<br />
-          le pouvoir du CBD !
+          Fleurs légales, résines de folie, huiles qui <br />
+          dépotent, gélules... Explore nos catégories et <br />
+          découvre le CBD sous toutes ses formes. <br />
+          Envie d'un truc plus gourmand ? Thés chill, <br />
+          bonbons relax et puffs qui envoient - <br />
+          on a pensé à tout. #detente
         </p>
-        <div class="prefers__grid">
-          <figure class="prefers__item">
-            <img src="./images/prefers/1.svg" alt="" />
-            <figcaption>
-              Améliore<br />
-              le sommeil
-            </figcaption>
-          </figure>
-          <figure class="prefers__item">
-            <img src="./images/prefers/2.svg" alt="" />
-            <figcaption>
-              Relaxant <br />
-              et anti-stress
-            </figcaption>
-          </figure>
-          <figure class="prefers__item">
-            <img src="./images/prefers/3.svg" alt="" />
-            <figcaption>
-              Anti<br />
-              inflammatoire
-            </figcaption>
-          </figure>
-          <figure class="prefers__item">
-            <img src="./images/prefers/4.svg" alt="" />
-            <figcaption>
-              Diminue<br />
-              ta conso<br />
-              de cannabis
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-    <div class="advantages">
-      <div class="container">
-        <div class="advantages__grid">
-          <figure class="advantages__item">
-            <img src="./images/advantages/1.webp" alt="" />
-            <h2>Made in France</h2>
-            <figcaption>
-              Nos huiles et fleurs CBD, cultivées par des <br />
-              agriculteurs français en or, sont stockées en <br />
-              France pour des livraisons ultra-rapides. <br />
-              Qualité locale, détente globale !
-            </figcaption>
-          </figure>
-          <figure class="advantages__item">
-            <img src="./images/advantages/2.webp" alt="" />
-            <h2>Qualité Premium</h2>
-            <figcaption>
-              On as reuni un cocktail explosif de molécules <br />
-              chill (CBD, CBG, CBN, terpènes...) cultivées <br />
-              en bio. C'est la nature qui détend, on te <br />
-              fournit juste le meilleur. Pas de blabla <br />
-              scientifique, juste du chill en version XXL.
-            </figcaption>
-          </figure>
-          <figure class="advantages__item">
-            <img src="./images/advantages/3.webp" alt="" />
-            <h2>Livraison en 24 / 48h</h2>
-            <figcaption>
-              Commande aujourd'hui, reçois demain ! <br />
-              Ton colis est expédié sous 24h à 48h <br />
-              ouvrables. Pas de stress, c'est confidentiel ! <br />
-              Emballage neutre et sans label pour une <br />
-              discrétion optimale.
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-    <div class="weedtypes container">
-      <h2 class="heading weedtypes__heading">
-        Envie de chiller ? <br />
-        On décolle quand ?
-      </h2>
-      <p class="text">
-        Fleurs légales, résines de folie, huiles qui <br />
-        dépotent, gélules... Explore nos catégories et <br />
-        découvre le CBD sous toutes ses formes. <br />
-        Envie d'un truc plus gourmand ? Thés chill, <br />
-        bonbons relax et puffs qui envoient - <br />
-        on a pensé à tout. #detente
-      </p>
-      <div class="weedtypes__grid">
-        <div class="weedtypes__cart weedtypes__cart--1">
-          <h2>Fleurs de CBD</h2>
-          <p>
-            Explorez nos superbes sélections de<br />
-            fleurs de CBD entièrement légales
-          </p>
-          <button class="weedtypes__button">Découvrir</button>
-          <div class="weedtypes__img">
-            <img src="images/weedtypes/1-product.png" alt="" />
+        <div class="weedtypes__grid">
+          <div class="weedtypes__cart weedtypes__cart--1">
+            <h2>Fleurs de CBD</h2>
+            <p>
+              Explorez nos superbes sélections de<br />
+              fleurs de CBD entièrement légales
+            </p>
+            <button class="weedtypes__button">Découvrir</button>
+            <div class="weedtypes__img">
+              <img src="images/weedtypes/1-product.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="weedtypes__cart weedtypes__cart--2">
-          <h2>RÉSINES CBD</h2>
-          <p>
-            Explorez nos Haschs au CBD. Une véritable <br />
-            explosion de saveurs et de goûts uniques
-          </p>
-          <button class="weedtypes__button">Découvrir</button>
-          <div class="weedtypes__img">
-            <img src="images/weedtypes/2-product.png" alt="" />
+          <div class="weedtypes__cart weedtypes__cart--2">
+            <h2>RÉSINES CBD</h2>
+            <p>
+              Explorez nos Haschs au CBD. Une véritable <br />
+              explosion de saveurs et de goûts uniques
+            </p>
+            <button class="weedtypes__button">Découvrir</button>
+            <div class="weedtypes__img">
+              <img src="images/weedtypes/2-product.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="weedtypes__cart weedtypes__cart--3">
-          <h2>HUILES CBD</h2>
-          <p>
-            Découvrez nos huiles de CBD. Spécialement <br />
-            formulées pour une utilisation thérapeutique, <br />
-            elles sont parfaites pour favoriser un sommeil <br />
-            paisible et apaiser l’anxiété ainsi que le stress
-          </p>
-          <button class="weedtypes__button">Découvrir</button>
-          <div class="weedtypes__img">
-            <img src="images/weedtypes/3-product.png" alt="" />
+          <div class="weedtypes__cart weedtypes__cart--3">
+            <h2>HUILES CBD</h2>
+            <p>
+              Découvrez nos huiles de CBD. Spécialement <br />
+              formulées pour une utilisation thérapeutique, <br />
+              elles sont parfaites pour favoriser un sommeil <br />
+              paisible et apaiser l’anxiété ainsi que le stress
+            </p>
+            <button class="weedtypes__button">Découvrir</button>
+            <div class="weedtypes__img">
+              <img src="images/weedtypes/3-product.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="weedtypes__cart weedtypes__cart--4">
-          <h2>GÉLULES CBD</h2>
-          <p>
-            Découvrez nos gélules de CBD. Optez pour <br />
-            une cure bien-être au CBD grâce à ces <br />
-            capsules
-          </p>
-          <button class="weedtypes__button">Découvrir</button>
-          <div class="weedtypes__img">
-            <img src="images/weedtypes/4-product.png" alt="" />
+          <div class="weedtypes__cart weedtypes__cart--4">
+            <h2>GÉLULES CBD</h2>
+            <p>
+              Découvrez nos gélules de CBD. Optez pour <br />
+              une cure bien-être au CBD grâce à ces <br />
+              capsules
+            </p>
+            <button class="weedtypes__button">Découvrir</button>
+            <div class="weedtypes__img">
+              <img src="images/weedtypes/4-product.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="weedtypes__cart weedtypes__cart--5">
-          <h2>THÉS ET TISANES</h2>
-          <p>
-            Explorez nos thés et tisanes au CBD pour <br />
-            ajouter une touche thérapeutique à votre <br />
-            pause bien-être
-          </p>
-          <button class="weedtypes__button">Découvrir</button>
-          <div class="weedtypes__img">
-            <img src="images/weedtypes/5-product.png" alt="" />
+          <div class="weedtypes__cart weedtypes__cart--5">
+            <h2>THÉS ET TISANES</h2>
+            <p>
+              Explorez nos thés et tisanes au CBD pour <br />
+              ajouter une touche thérapeutique à votre <br />
+              pause bien-être
+            </p>
+            <button class="weedtypes__button">Découvrir</button>
+            <div class="weedtypes__img">
+              <img src="images/weedtypes/5-product.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="weedtypes__cart weedtypes__cart--6">
-          <h2>BONBONS CBD</h2>
-          <p>
-            Explorez nos délicieux bonbons au CBD. <br />
-            À essayer sans hésitation
-          </p>
-          <button class="weedtypes__button">Découvrir</button>
-          <div class="weedtypes__img">
-            <img src="images/weedtypes/6-product.jpg" alt="" />
+          <div class="weedtypes__cart weedtypes__cart--6">
+            <h2>BONBONS CBD</h2>
+            <p>
+              Explorez nos délicieux bonbons au CBD. <br />
+              À essayer sans hésitation
+            </p>
+            <button class="weedtypes__button">Découvrir</button>
+            <div class="weedtypes__img">
+              <img src="images/weedtypes/6-product.jpg" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="weedtypes__cart weedtypes__cart--7">
-          <h2>PUFF CBD</h2>
-          <p>
-            Le soleil, même en hiver grâce à les PUFFS <br />
-            Binks et nos goûts incomparables!
-          </p>
-          <button class="weedtypes__button">Découvrir</button>
-          <div class="weedtypes__img">
-            <img src="images/weedtypes/7-product.png" alt="" />
+          <div class="weedtypes__cart weedtypes__cart--7">
+            <h2>PUFF CBD</h2>
+            <p>
+              Le soleil, même en hiver grâce à les PUFFS <br />
+              Binks et nos goûts incomparables!
+            </p>
+            <button class="weedtypes__button">Découvrir</button>
+            <div class="weedtypes__img">
+              <img src="images/weedtypes/7-product.png" alt="" />
+            </div>
           </div>
-        </div>
-        <div class="weedtypes__cart weedtypes__cart--8">
-          <h2>E-LIQUIDES CBD</h2>
-          <p>
-            Découvrez nos e-liquides au CBD, <br />
-            savamment conçus avec des arômes subtils
-          </p>
-          <button class="weedtypes__button">Découvrir</button>
-          <div class="weedtypes__img">
-            <img src="images/weedtypes/8-product.png" alt="" />
+          <div class="weedtypes__cart weedtypes__cart--8">
+            <h2>E-LIQUIDES CBD</h2>
+            <p>
+              Découvrez nos e-liquides au CBD, <br />
+              savamment conçus avec des arômes subtils
+            </p>
+            <button class="weedtypes__button">Découvrir</button>
+            <div class="weedtypes__img">
+              <img src="images/weedtypes/8-product.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="products container">
-      <h2 class="heading products__heading">
-        <span class="heading--red">Promotions</span> CBD
-      </h2>
-      <p class="text">
-        Budget serré ? Pas de problème ! On te <br />
-        propose des promos régulières <br />
-        et des offres exclusives sur nos fleurs légales, <br />
-        huiles, gélules et e-liquides CBD de qualité. <br />
-        Détente à prix mini, c'est possible chez Binks ! <br />
-        Profite de tous les bienfaits du CBD sans te <br />
-        ruiner. #BonsPlansCBD #ChillPasCher
-      </p>
-      <div class="products__grid">
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-        <div class="products__cart">
-          <div class="products__img">
-            <img src="images/products/1.png" alt="" />
-          </div>
-          <div class="products__content">
-            <h3>ICE cream<br />cali</h3>
-            <div class="products__stars">
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-              <img src="images/star.svg" alt="" />
-            </div>
-            <div class="products__rate">4.8 (182 Avis)</div>
-            <div class="products__tags">
-              <span class="products__tag--black">Indoor</span>
-              <span class="products__tag--25">13% CBD</span>
-              <span>0.15% THC</span>
-            </div>
-            <div class="products__price">Dès 7,40€</div>
-          </div>
-        </div>
-      </div>
-      <button class="products__button">Les Top ventes CBD</button>
-    </div>
-    <div class="purposes">
-      <div class="container">
-        <h2 class="heading purposes__heading">
-          PouPourquoi <br />
-          choisir Binks?
-        </h2>
-        <div class="purposes__img">
-          <img src="./images/purposes/vetoytravered.svg" alt="" />
-        </div>
-        <p class="text">
-          Nos fleurs sont cultivées avec passion pour des<br />
-          saveurs incroyables et une satisfaction<br />
-          visuelle et gustative incomparable.<br />
-          Nos huiles sont d'une efficacité redoutable pour<br />
-          profiter pleinement des bienfaits du CBD.
-        </p>
-        <div class="purposes__img">
-          <img src="./images/purposes/vetoytravered.svg" alt="" />
-        </div>
-        <p class="text">
-          La sécurité est notre priorité : tous nos produits<br />
-          respectent les normes européennes<br />
-          et françaises. Nos fleurs ont un taux de<br />
-          THC inférieur à 0,2% et nos autres produits<br />
-          (cosmétiques, huiles, e-liquides<br />, produits alimentaires)
-          répondent aux exigences<br />
-          de qualité les plus strictes.
-        </p>
-        <div class="purposes__img">
-          <img src="./images/purposes/vetoytravered.svg" alt="" />
-        </div>
-        <p class="text">
-          Traçabilité totale : nous collaborons avec<br />
-          des partenaires de confiance pour garantir<br />
-          la pureté et l'authenticité de chaque article.
-        </p>
-        <div class="purposes__img">
-          <img src="./images/purposes/vetoytravered.svg" alt="" />
-        </div>
-        <p class="text">
-          Commandez en toute confiance : livraison<br />
-          discrète, produits sûrs et légaux.<br />
-          Binks CBD, le choix de la qualité pour<br />
-          ton bien-être.
-        </p>
-        <div class="purposes__img">
-          <img src="./images/purposes/vetoytravered.svg" alt="" />
-        </div>
-        <p class="text">
-          N'hésitez pas à nous contacter pour<br />
-          plus d'informations!
-        </p>
-      </div>
-      <div class="purposes__img">
-        <img src="./images/purposes/howtowetoytrave.png" alt="" />
-      </div>
-    </div>
-    <div class="legaliter">
-      <div class="container">
-        <h2 class="heading legalite__heading">
-          Binks CBD <br />
-          Le four 24/24 en <br />
-          toute legalité
+      <div class="products container">
+        <h2 class="heading products__heading">
+          <span class="heading--red">Promotions</span> CBD
         </h2>
         <p class="text">
-          Binks CBD : Pas besoin de voyager loin pour <br />
-          du CBD d'exception ! On cultive nos fleurs avec <br />
-          amour, dans des champs français soigneusement <br />
-          sélectionnés. Grâce à notre équipe passionnée <br />
-          qui veille sur elles 24h/24, on t'assure une qualité <br />
-          de folie, de la graine à la fleur. On est fiers de te <br />
-          proposer des produits d'exception à des prix qui <br />
-          te feront kiffer. <br />
-          <br />En supprimant les intermédiaires et en gérant toute la chaîne
-          de production, on <br />
-          peut te garantir des fleurs de CBD <br />
-          fraîches et savoureuses à des prix canons. <br />
-          <br />
-          Profite aussi de notre programme de fidélité <br />
-          et de parrainage pour te faire plaisir sans <br />
-          te ruiner. Binks CBD, c'est ton allié bien-être <br />
-          au meilleur prix. Fonce découvrir l'univers <br />
-          Binks CBD dès maintenant !
+          Budget serré ? Pas de problème ! On te <br />
+          propose des promos régulières <br />
+          et des offres exclusives sur nos fleurs légales, <br />
+          huiles, gélules et e-liquides CBD de qualité. <br />
+          Détente à prix mini, c'est possible chez Binks ! <br />
+          Profite de tous les bienfaits du CBD sans te <br />
+          ruiner. #BonsPlansCBD #ChillPasCher
         </p>
+        <div class="products__grid">
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+          <div class="products__cart">
+            <div class="products__img">
+              <img src="images/products/1.png" alt="" />
+            </div>
+            <div class="products__content">
+              <h3>ICE cream<br />cali</h3>
+              <div class="products__stars">
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+                <img src="images/star.svg" alt="" />
+              </div>
+              <div class="products__rate">4.8 (182 Avis)</div>
+              <div class="products__tags">
+                <span class="products__tag--black">Indoor</span>
+                <span class="products__tag--25">13% CBD</span>
+                <span>0.15% THC</span>
+              </div>
+              <div class="products__price">Dès 7,40€</div>
+            </div>
+          </div>
+        </div>
+        <button class="products__button">Les Top ventes CBD</button>
       </div>
-
-      <div class="legalite__img">
-        <img src="./images/purposes/travavrukah.png" alt="" />
+      <div class="purposes">
+        <div class="container">
+          <h2 class="heading purposes__heading">
+            PouPourquoi <br />
+            choisir Binks?
+          </h2>
+          <div class="purposes__img">
+            <img src="./images/purposes/vetoytravered.svg" alt="" />
+          </div>
+          <p class="text">
+            Nos fleurs sont cultivées avec passion pour des<br />
+            saveurs incroyables et une satisfaction<br />
+            visuelle et gustative incomparable.<br />
+            Nos huiles sont d'une efficacité redoutable pour<br />
+            profiter pleinement des bienfaits du CBD.
+          </p>
+          <div class="purposes__img">
+            <img src="./images/purposes/vetoytravered.svg" alt="" />
+          </div>
+          <p class="text">
+            La sécurité est notre priorité : tous nos produits<br />
+            respectent les normes européennes<br />
+            et françaises. Nos fleurs ont un taux de<br />
+            THC inférieur à 0,2% et nos autres produits<br />
+            (cosmétiques, huiles, e-liquides<br />, produits alimentaires)
+            répondent aux exigences<br />
+            de qualité les plus strictes.
+          </p>
+          <div class="purposes__img">
+            <img src="./images/purposes/vetoytravered.svg" alt="" />
+          </div>
+          <p class="text">
+            Traçabilité totale : nous collaborons avec<br />
+            des partenaires de confiance pour garantir<br />
+            la pureté et l'authenticité de chaque article.
+          </p>
+          <div class="purposes__img">
+            <img src="./images/purposes/vetoytravered.svg" alt="" />
+          </div>
+          <p class="text">
+            Commandez en toute confiance : livraison<br />
+            discrète, produits sûrs et légaux.<br />
+            Binks CBD, le choix de la qualité pour<br />
+            ton bien-être.
+          </p>
+          <div class="purposes__img">
+            <img src="./images/purposes/vetoytravered.svg" alt="" />
+          </div>
+          <p class="text">
+            N'hésitez pas à nous contacter pour<br />
+            plus d'informations!
+          </p>
+        </div>
+        <div class="purposes__img">
+          <img src="./images/purposes/howtowetoytrave.png" alt="" />
+        </div>
       </div>
-    </div>
-    <div class="accordion-container">
-      <div class="heading accordion__heading">
-        FAQ - Tout savoir <br />
-        sur le CBD
-      </div>
-      <div class="ac">
-        <h2 class="ac-header">
-          <button type="button" class="ac-trigger">
-            Qu’est-ce que le CBD ?
-          </button>
-        </h2>
-        <div class="ac-panel">
-          <p class="ac-text">
-            Abréviation de cannabidiol, le CBD est<br />une molécule extraite
-            du chanvre, aussi <br />
-            appelée cannabis. Mais contrairement à la <br />seconde molécule
-            présente dans la <br />
-            plante <br />
-            appelée Delta-9 TetraHydroCannabinol <br />
-            ou THC, le CBD n’a pas d’effet <br />
-            stupéfiant <br />
-            et n’engendre donc pas de dépendance <br />
-            physique. <br />
-            Explore les bienfaits du CBD <br />
-            sans effets psychoactifs. Le CBD t'offre <br />
-            un soulagement naturel pour ton anxiété, <br />ton stress et tes
-            douleurs chroniques, <br />
-            sans les effets secondaires indésirables <br />
-            souvent associés à d'autres solutions. <br />
-            Nos produits CBD de qualité supérieure <br />
-            sont rigoureusement testés en <br />
-            laboratoire <br />
-            pour garantir leur pureté et leur efficacité. <br />
-            Découvre une alternative naturelle et <br />
-            efficace pour améliorer ton bien-être <br />
-            quotidien. <br />
+      <div class="legaliter">
+        <div class="container">
+          <h2 class="heading legalite__heading">
+            Binks CBD <br />
+            Le four 24/24 en <br />
+            toute legalité
+          </h2>
+          <p class="text">
+            Binks CBD : Pas besoin de voyager loin pour <br />
+            du CBD d'exception ! On cultive nos fleurs avec <br />
+            amour, dans des champs français soigneusement <br />
+            sélectionnés. Grâce à notre équipe passionnée <br />
+            qui veille sur elles 24h/24, on t'assure une qualité <br />
+            de folie, de la graine à la fleur. On est fiers de te <br />
+            proposer des produits d'exception à des prix qui <br />
+            te feront kiffer. <br />
+            <br />En supprimant les intermédiaires et en gérant toute la chaîne
+            de production, on <br />
+            peut te garantir des fleurs de CBD <br />
+            fraîches et savoureuses à des prix canons. <br />
             <br />
-            Rejoins ceux qui ont déjà découvert les <br />
-            avantages du CBD dans leur vie. Notre <br />
-            large gamme de produits CBD de haute <br />qualité répond à tes
-            besoins <br />
-            spécifiques. <br />
-            Que tu cherches à apaiser ton anxiété, <br />
-            à gérer ton stress ou à <br />
-            soulager tes <br />douleurs chroniques, le CBD peut t'aider <br />
-            de manière naturelle. <br />
-            Profite des bienfaits <br />
-            du CBD sans compromettre ton <br />
-            fonctionnement quotidien. <br />
-            Transforme ta vie avec le pouvoir du CBD <br />
-            de confiance.
+            Profite aussi de notre programme de fidélité <br />
+            et de parrainage pour te faire plaisir sans <br />
+            te ruiner. Binks CBD, c'est ton allié bien-être <br />
+            au meilleur prix. Fonce découvrir l'univers <br />
+            Binks CBD dès maintenant !
           </p>
+        </div>
+
+        <div class="legalite__img">
+          <img src="./images/purposes/travavrukah.png" alt="" />
+        </div>
+      </div>
+      <div class="accordion-container">
+        <div class="heading accordion__heading">
+          FAQ - Tout savoir <br />
+          sur le CBD
+        </div>
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">
+              Qu’est-ce que le CBD ?
+            </button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Abréviation de cannabidiol, le CBD est<br />une molécule extraite
+              du chanvre, aussi <br />
+              appelée cannabis. Mais contrairement à la <br />seconde molécule
+              présente dans la <br />
+              plante <br />
+              appelée Delta-9 TetraHydroCannabinol <br />
+              ou THC, le CBD n’a pas d’effet <br />
+              stupéfiant <br />
+              et n’engendre donc pas de dépendance <br />
+              physique. <br />
+              Explore les bienfaits du CBD <br />
+              sans effets psychoactifs. Le CBD t'offre <br />
+              un soulagement naturel pour ton anxiété, <br />ton stress et tes
+              douleurs chroniques, <br />
+              sans les effets secondaires indésirables <br />
+              souvent associés à d'autres solutions. <br />
+              Nos produits CBD de qualité supérieure <br />
+              sont rigoureusement testés en <br />
+              laboratoire <br />
+              pour garantir leur pureté et leur efficacité. <br />
+              Découvre une alternative naturelle et <br />
+              efficace pour améliorer ton bien-être <br />
+              quotidien. <br />
+              <br />
+              Rejoins ceux qui ont déjà découvert les <br />
+              avantages du CBD dans leur vie. Notre <br />
+              large gamme de produits CBD de haute <br />qualité répond à tes
+              besoins <br />
+              spécifiques. <br />
+              Que tu cherches à apaiser ton anxiété, <br />
+              à gérer ton stress ou à <br />
+              soulager tes <br />douleurs chroniques, le CBD peut t'aider <br />
+              de manière naturelle. <br />
+              Profite des bienfaits <br />
+              du CBD sans compromettre ton <br />
+              fonctionnement quotidien. <br />
+              Transforme ta vie avec le pouvoir du CBD <br />
+              de confiance.
+            </p>
+          </div>
+        </div>
+
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">
+              Quelle est la différence entre CBD et THC ?
+            </button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">
+              Quels sont les effets du CBD ?
+            </button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">
+              Comment consommer le CBD ?
+            </button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">
+              Quel taux de CBD choisir ?
+            </button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">
+              D’où proviennent les produits que nous vendons ?
+            </button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">
+              Comment se passe la livraison ?
+            </button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="ac">
+          <h2 class="ac-header">
+            <button type="button" class="ac-trigger">
+              Puis-je conduire après avoir consommé du CBD ?
+            </button>
+          </h2>
+          <div class="ac-panel">
+            <p class="ac-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="ac">
-        <h2 class="ac-header">
-          <button type="button" class="ac-trigger">
-            Quelle est la différence entre CBD et THC ?
-          </button>
-        </h2>
-        <div class="ac-panel">
-          <p class="ac-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-        </div>
-      </div>
-      <<<<<<< HEAD <div class="reviews container">
+      <div class="reviews container">
         <h2 class="heading reviews__heading">
           Les avis de nos <br />
           clients
@@ -813,174 +886,184 @@
 
           <div class="glide__arrows" data-glide-el="controls">
             <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-              <img src="images/Arrow - Right Circle.png" alt="" />
+              <img src="images/arrow.png" alt="" />
             </button>
             <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-              <img src="images/Arrow - Right Circle.png" alt="" />
+              <img src="images/arrow.png" alt="" />
             </button>
           </div>
         </div>
         margin-top: 25px;
-    </div>
+      </div>
 
-    <div class="culture container">
-      <h2 class="heading culture__heading">
-        Decouvrir la <br />
-        culture de CBD
-      </h2>
-      <div class="culture__grid">
-        <img src="/images/culture/1.png" alt="" />
-        <div class="culture__cart">
-          <div class="culture__content">
-            <h2 class="heading culture__heading--cart">
-              Au-delà du THC : <br />
-              Pourquoi le Delta-P est <br />
-              le cannabinoïde du futur ?
-            </h2>
-            <p class="text--culture-date">mars 20, 2024</p>
-            <p class="text--culture">
-              Qu’est-ce que le Delta-P, le cannabinoïde du futur ? <br />
-              Cet article explore la puissance exceptionnelle| <br />du
-              Delta-P, ses avantages thérapeutiques significatifs <br />et son
-              potentiel à redéfinir l'industrie du cannabis. <br />BINKS CBD,
-              avec beaucoup de passion, vous <br />invite à découvrir et
-              expérimenter les bénéfices uniques <br />du Delta-P pour un
-              bien-être optimal.
-            </p>
-          </div>
-        </div>
-        <img src="/images/culture/2.png" alt="" />
-        <div class="culture__cart">
-          <div class="culture__content">
-            <h2 class="heading culture__heading--cart">
-              Quels sont les effets <br />
-              du CBD ?
-            </h2>
-            <p class="text--culture-date">mars 20, 2024</p>
-            <p class="text--culture">
-              Explorez les effets polyvalents du CBD sur la santé <br />
-              et le bien-être dans notre article approfondi. Découvrez <br />
-              comment le CBD peut réduire l'anxiété, la douleur, <br />
-              les troubles neurologiques et améliorer la santé de la peau,
-              <br />
-              et la qualité du sommeil. Approfondissez vos connaissances
-              <br />
-              avec Binks CBD et son guide de tous les <br />
-              effets du cannabidiol.
-            </p>
-          </div>
-        </div>
-        <img src="/images/culture/3.png" alt="" />
-        <div class="culture__cart">
-          <div class="culture__content">
-            <h2 class="heading culture__heading--cart">
-              Quand prendre <br />
-              du CBD ?
-            </h2>
-            <p class="text--culture-date">février 21, 2024</p>
-            <p class="text--culture">
-              Explorez l'usage du CBD pour le bien-être quotidien <br />
-              dans cet article complet de Binks CBD. Découvrez quand <br />
-              et comment intégrer le CBD dans votre routine pour <br />
-              le sommeil, le stress et la santé générale, tout en <br />
-              respectant les législations actuelles et en prenant <br />
-              les précautions médicales nécessaires.
-            </p>
-          </div>
-        </div>
-      </div>
-      <button class="culture__button">Le blog du CBD</button>
-    </div>
-    <div class="advantages--second">
-      <div class="container">
-        <div class="advantages__grid">
-          <figure class="advantages__item">
-            <img src="./images/advantages/3.webp" alt="" />
-            <h2>Livraison Rapide</h2>
-            <figcaption>
-              Nous expédions votre commande <br />
-              sous 24h à 48h ouvrés
-            </figcaption>
-          </figure>
-          <figure class="advantages__item">
-            <img src="./images/advantages/2.webp" alt="" />
-            <h2>Qualité Premium</h2>
-            <figcaption>
-              Nos procédés de production <br />
-              durables préservent tous les <br />
-              cannabinoïdes présents dans <br />
-              nos produits.
-            </figcaption>
-          </figure>
-          <figure class="advantages__item">
-            <img src="./images/advantages/2-3.png" alt="" />
-            <h2>Service</h2>
-            <figcaption>
-              La Team Binks répond <br />
-              à tout vos questions <br />
-              en moins de 24h
-            </figcaption>
-          </figure>
-          <figure class="advantages__item">
-            <img src="./images/advantages/2-4.png" alt="" />
-            <h2>Legal en Europe</h2>
-            <figcaption>
-              Nos produits sont certifiés en <br />
-              laboratoires à moins de 0,3% de <br />
-              THC
-            </figcaption>
-          </figure>
-          <figure class="advantages__item">
-            <img src="./images/advantages/2-5.png" alt="" />
-            <h2>Package Anonyme</h2>
-            <figcaption>
-              Pour une discrétion optimale, <br />
-              nos produits sont emballés <br />
-              dans des emballages neutres <br />
-              et sans aucune marque
-            </figcaption>
-          </figure>
-          <figure class="advantages__item">
-            <img src="./images/advantages/2-6.png" alt="" />
-            <h2>
-              TESTER EN <br />
-              LABORATOIRES
-            </h2>
-            <figcaption>
-              Les produits Binks CBD sont testés en <br />
-              laboratoire pour respecter les normes <br />
-              en vigueur, y compris le taux de THC légal, <br />
-              garantissant une expérience de haute <br />
-              qualité.
-            </figcaption>
-          </figure>
-          <figure class="advantages__item">
-            <img src="./images/advantages/2-7.png" alt="" />
-            <h2>
-              ASSURENCE COLIS <br />
-              VOLÉ OU PERDU
-            </h2>
-            <figcaption>
-              Offerte pour toutes les commandes <br />
-              sans minimum d’achat
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </div>
-    <div class="group">
-      <div class="container">
-        <img src="/images/group/1.png" alt="" />
-        <h2 class="heading group__heading">
-          Rejoins le gang <br />
-          et recois 10€
+      <div class="culture container">
+        <h2 class="heading culture__heading">
+          Decouvrir la <br />
+          culture de CBD
         </h2>
+        <div class="culture__grid">
+          <img src="/images/culture/1.png" alt="" />
+          <div class="culture__cart">
+            <div class="culture__content">
+              <h2 class="heading culture__heading--cart">
+                Au-delà du THC : <br />
+                Pourquoi le Delta-P est <br />
+                le cannabinoïde du futur ?
+              </h2>
+              <p class="text--culture-date">mars 20, 2024</p>
+              <p class="text--culture">
+                Qu’est-ce que le Delta-P, le cannabinoïde du futur ? <br />
+                Cet article explore la puissance exceptionnelle| <br />du
+                Delta-P, ses avantages thérapeutiques significatifs <br />et son
+                potentiel à redéfinir l'industrie du cannabis. <br />BINKS CBD,
+                avec beaucoup de passion, vous <br />invite à découvrir et
+                expérimenter les bénéfices uniques <br />du Delta-P pour un
+                bien-être optimal.
+              </p>
+            </div>
+          </div>
+          <img src="/images/culture/2.png" alt="" />
+          <div class="culture__cart">
+            <div class="culture__content">
+              <h2 class="heading culture__heading--cart">
+                Quels sont les effets <br />
+                du CBD ?
+              </h2>
+              <p class="text--culture-date">mars 20, 2024</p>
+              <p class="text--culture">
+                Explorez les effets polyvalents du CBD sur la santé <br />
+                et le bien-être dans notre article approfondi. Découvrez <br />
+                comment le CBD peut réduire l'anxiété, la douleur, <br />
+                les troubles neurologiques et améliorer la santé de la peau,
+                <br />
+                et la qualité du sommeil. Approfondissez vos connaissances
+                <br />
+                avec Binks CBD et son guide de tous les <br />
+                effets du cannabidiol.
+              </p>
+            </div>
+          </div>
+          <img src="/images/culture/3.png" alt="" />
+          <div class="culture__cart">
+            <div class="culture__content">
+              <h2 class="heading culture__heading--cart">
+                Quand prendre <br />
+                du CBD ?
+              </h2>
+              <p class="text--culture-date">février 21, 2024</p>
+              <p class="text--culture">
+                Explorez l'usage du CBD pour le bien-être quotidien <br />
+                dans cet article complet de Binks CBD. Découvrez quand <br />
+                et comment intégrer le CBD dans votre routine pour <br />
+                le sommeil, le stress et la santé générale, tout en <br />
+                respectant les législations actuelles et en prenant <br />
+                les précautions médicales nécessaires.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="culture__button">Le blog du CBD</button>
       </div>
-    </div>
-  </main>
-  <script src="scripts/accordion.min.js"></script>
-  <script src="scripts/glide.min.js"></script>
-  <script src="scripts/script.js"></script>
-</body>
-
+      <div class="advantages--second">
+        <div class="container">
+          <div class="advantages__grid">
+            <figure class="advantages__item">
+              <img src="./images/advantages/3.webp" alt="" />
+              <h2>Livraison Rapide</h2>
+              <figcaption>
+                Nous expédions votre commande <br />
+                sous 24h à 48h ouvrés
+              </figcaption>
+            </figure>
+            <figure class="advantages__item">
+              <img src="./images/advantages/2.webp" alt="" />
+              <h2>Qualité Premium</h2>
+              <figcaption>
+                Nos procédés de production <br />
+                durables préservent tous les <br />
+                cannabinoïdes présents dans <br />
+                nos produits.
+              </figcaption>
+            </figure>
+            <figure class="advantages__item">
+              <img src="./images/advantages/2-3.png" alt="" />
+              <h2>Service</h2>
+              <figcaption>
+                La Team Binks répond <br />
+                à tout vos questions <br />
+                en moins de 24h
+              </figcaption>
+            </figure>
+            <figure class="advantages__item">
+              <img src="./images/advantages/2-4.png" alt="" />
+              <h2>Legal en Europe</h2>
+              <figcaption>
+                Nos produits sont certifiés en <br />
+                laboratoires à moins de 0,3% de <br />
+                THC
+              </figcaption>
+            </figure>
+            <figure class="advantages__item">
+              <img src="./images/advantages/2-5.png" alt="" />
+              <h2>Package Anonyme</h2>
+              <figcaption>
+                Pour une discrétion optimale, <br />
+                nos produits sont emballés <br />
+                dans des emballages neutres <br />
+                et sans aucune marque
+              </figcaption>
+            </figure>
+            <figure class="advantages__item">
+              <img src="./images/advantages/2-6.png" alt="" />
+              <h2>
+                TESTER EN <br />
+                LABORATOIRES
+              </h2>
+              <figcaption>
+                Les produits Binks CBD sont testés en <br />
+                laboratoire pour respecter les normes <br />
+                en vigueur, y compris le taux de THC légal, <br />
+                garantissant une expérience de haute <br />
+                qualité.
+              </figcaption>
+            </figure>
+            <figure class="advantages__item">
+              <img src="./images/advantages/2-7.png" alt="" />
+              <h2>
+                ASSURENCE COLIS <br />
+                VOLÉ OU PERDU
+              </h2>
+              <figcaption>
+                Offerte pour toutes les commandes <br />
+                sans minimum d’achat
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="group">
+        <div class="container">
+          <img src="/images/group/1.png" alt="" />
+          <h2 class="heading group__heading">
+            Rejoins le gang <br />
+            et recois 10€
+          </h2>
+          <p class="text">
+            En t'inscrivant à la newsletter Binks, tu recevras <br />
+            notre catalogue complet et un bon d'achat <br />
+            de 10€ pour ta première commande.
+          </p>
+          <input
+            class="group--input"
+            type="text"
+            placeholder="Saisissez votre e-mail"
+          />
+          <button class="group__button">Recevoir les offers</button>
+        </div>
+      </div>
+    </main>
+    <script src="scripts/accordion.min.js"></script>
+    <script src="scripts/glide.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
