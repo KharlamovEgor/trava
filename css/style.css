@@ -81,6 +81,7 @@ body {
 
 /* alert */
 .alert {
+  color: black;
   padding: 11px;
   font-family: "Helvetica";
   text-align: center;
@@ -938,4 +939,970 @@ body {
   font-weight: 700;
   letter-spacing: 0.3px;
   text-align: left;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    margin: 0;
+    font-family: Helvetica;
+    color: white;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 0 15px;
+  }
+
+  /* heading */
+
+  .heading {
+    font-family: "Burbank Big Condensed Black";
+    color: white;
+    font-size: 40px;
+    text-shadow: 7px 6px #ffffff40;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -1%;
+    text-transform: uppercase;
+  }
+
+  .heading--red {
+    margin-right: 10px;
+    font-family: "Burbank Big Condensed Black";
+    color: #d41d3a;
+    font-size: 40px;
+    text-shadow: 7px 6px #d41d3a40;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: -1%;
+    text-transform: uppercase;
+  }
+
+  .heading--small {
+    font-size: 2.25rem;
+    text-align: start;
+  }
+
+  .heading--black {
+    color: black;
+  }
+
+  /* supheading */
+
+  .supheading {
+    font-size: 1.5rem;
+    font-family: "Burbank Big Condensed Black";
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 7px 6px #ffffff40;
+  }
+
+  /* text */
+
+  .text {
+    font-family: "HelveticaNeueCyr";
+    color: white;
+    font-size: 14px;
+    line-height: 1.55;
+    text-align: center;
+    letter-spacing: -0.32px;
+  }
+
+  .text--culture {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .text--culture-date {
+    color: #848484;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  /* alert */
+  .alert {
+    color: black;
+    padding: 11px;
+    font-family: "Helvetica";
+    text-align: center;
+    background-color: #d41d3a;
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  /* navbar */
+  .navbar {
+    padding-top: 10px;
+    background-color: black;
+    height: 125px;
+    margin: 0 auto;
+  }
+
+  .navbar__container {
+    padding: 5px 280px 10px 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Users buttons */
+  .users-buttons {
+    display: flex;
+    column-gap: 17px;
+  }
+
+  .users-buttons button {
+    background: transparent;
+    border: none;
+    opacity: 0.6;
+    padding: 0;
+  }
+
+  /* Burger */
+  .burger {
+    padding: 0;
+    background: transparent;
+    border: none;
+    display: none;
+  }
+
+  /* logo */
+  .logo {
+    position: relative;
+    top: -5px;
+    left: 20px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  /* header */
+  .header {
+    background-image: url("../images/bg.png");
+    background-size: 1520px;
+    background-repeat: no-repeat;
+    background-position: center -35px;
+    background-color: black;
+    background-position: 0px -135px;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+
+  .header h2 {
+    font-family: "Burbank Big Condensed Black";
+    color: black;
+    font-size: 48px;
+    text-shadow: 7px 6px #d41d3a;
+    margin-top: 175px;
+    margin-bottom: 5px;
+    line-height: 1;
+  }
+
+  .header p {
+    font-family: "HelveticaNeueCyr";
+    color: black;
+    font-size: 10px;
+    line-height: 1.5;
+  }
+
+  .header__button {
+    margin: 20px;
+    margin-bottom: 280px;
+    padding: 18px 76px 18px 55px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    background-color: #d41d3a;
+    color: white;
+    box-shadow: 0px 0px 14.5px 0px #ffffff8c inset;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+  }
+
+  .header__button::after {
+    content: url("../images/vetoytrave.svg");
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 3px;
+  }
+
+  /* running line */
+
+  .running-line {
+    display: flex;
+    overflow: hidden;
+    background-color: #d41d3a;
+    position: relative;
+    height: 200px;
+    gap: 30px;
+  }
+
+  .running-line__first,
+  .running-line__second {
+    position: absolute;
+    display: flex;
+    animation: ticker 10s infinite linear forwards;
+    right: 0;
+    top: 35px;
+    transform: translate(100%, 0);
+  }
+
+  .running-line__second {
+    animation: ticker 10s 5s infinite linear forwards;
+  }
+
+  .running-line__block {
+    width: 123px;
+    font-size: 10px;
+    line-height: 1.38;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .running-line__block img {
+  }
+
+  .running-line__block figcaption {
+  }
+
+  @keyframes ticker {
+    0% {
+      transform: translate(100%, 0);
+    }
+
+    50% {
+      transform: translate(0, 0);
+    }
+
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+  /* main */
+
+  .main {
+    background-color: black;
+  }
+
+  .main-1 {
+    background-color: #d41d3a;
+    background-image: url(/images/background/background.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+
+  /* products */
+
+  .products {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .products__heading {
+    margin-top: 120px;
+    margin-bottom: 12px;
+    font-size: 48px;
+  }
+
+  .products__grid {
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .products__cart {
+    font-family: "HelveticaNeueCyr";
+    padding: 3px;
+    color: white;
+    background: #181818;
+    border: 0.5px solid #606060;
+    border-radius: 5px;
+  }
+
+  .products__img {
+    background-color: black;
+    border-radius: 5px;
+    border: 0.5px solid #606060;
+    width: 220px;
+  }
+
+  .products__content {
+    padding: 10px 8px 2px;
+  }
+
+  .products__cart h3 {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .products__stars {
+    display: flex;
+    margin-top: 8px;
+    gap: 3px;
+  }
+
+  .products__rate {
+    font-weight: 400;
+    font-size: 8px;
+    margin-top: 3px;
+  }
+
+  .products__tags {
+    margin-top: 5px;
+    display: flex;
+    max-width: 80px;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .products__tags span {
+    background-color: #d41d3a;
+    font-size: 6.45px;
+    padding: 2px 5px;
+    text-wrap: nowrap;
+    border-radius: 8px;
+    line-height: 1;
+    border: 1px solid #d41d3a;
+  }
+
+  .products__tag--black {
+    color: black;
+  }
+
+  .products__price {
+    font-family: Helvetica;
+    text-align: right;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+
+  .products__button {
+    display: block;
+    margin: 55px auto 0;
+    padding: 18px 54px 18px 33px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    background-color: #d41d3a;
+    color: white;
+    box-shadow: 0px 0px 14.5px 0px #ffffff8c inset;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    letter-spacing: -1%;
+  }
+
+  .products__button::after {
+    content: url("../images/vetoytrave.svg");
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 3px;
+  }
+
+  /* prefers */
+
+  .prefers {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+
+  .prefers h2 {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    font-size: 48px;
+  }
+
+  .prefers__grid {
+    grid-template-columns: 500px 500px;
+    column-gap: 8px;
+    row-gap: 8px;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .prefers__item {
+    font-size: 20px;
+    letter-spacing: -1%;
+    line-height: 1.05;
+    text-align: left;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px 30px 40px 30px;
+    justify-content: space-between;
+    background: #D41D3A;
+    border: 1px solid #FF748A;
+    border-radius: 5px;
+  }
+
+  .prefers__item div {
+    font-family: "Burbank Big Condensed Black";
+    font-size: 48px;
+    text-transform: uppercase;
+    text-shadow: 7px 6px #FFFFFF40;
+  }
+
+  .prefers__item img {
+    width: 80px;
+  }
+
+  .prefers figcaption {
+    margin-top: 10px;
+  }
+
+  /* advantages */
+  .advantages {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+
+  .advantages__grid {
+    grid-template-columns: 330px 330px 330px;
+    display: grid;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .advantages__item {
+    letter-spacing: -1%;
+    line-height: 1.05;
+    text-align: center;
+    color: white;
+    font-family: Helvetica;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantages__item img {
+    width: 140px;
+  }
+
+  .advantages__item h2 {
+    margin-top: 15px;
+    font-family: "Burbank Big Condensed Black";
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: 7px 6px #ffffff40;
+    text-transform: uppercase;
+  }
+
+  .advantages__item figcaption {
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 10px;
+  }
+
+  /* weedtypes */
+
+  .weedtypes {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .weedtypes__heading {
+    margin-bottom: 12px;
+  }
+
+  .weedtypes__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-top: 20px;
+  }
+
+  .weedtypes__cart {
+    font-family: "Helvetica";
+    font-size: 14px;
+    padding: 3px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    background-repeat: no-repeat;
+  }
+
+  .weedtypes__cart--1 {
+    background-image: url("../images/weedtypes/1.svg");
+  }
+
+  .weedtypes__cart--2 {
+    background-image: url("../images/weedtypes/2.svg");
+  }
+
+  .weedtypes__cart--3 {
+    background-image: url("../images/weedtypes/3.svg");
+  }
+
+  .weedtypes__cart--4 {
+    background-image: url("../images/weedtypes/4.svg");
+    line-height: 1.1;
+  }
+
+  .weedtypes__cart--5 {
+    background-image: url("../images/weedtypes/5.svg");
+    line-height: 1.1;
+  }
+
+  .weedtypes__cart--6 {
+    background-image: url("../images/weedtypes/6.svg");
+  }
+
+  .weedtypes__cart--7 {
+    background-image: url("../images/weedtypes/7.svg");
+  }
+
+  .weedtypes__cart--8 {
+    background-image: url("../images/weedtypes/8.svg");
+  }
+
+  .weedtypes__img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .weedtypes__cart h2 {
+    margin-top: 25px;
+    font-family: "Burbank Big Condensed Black";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+    text-shadow: 7px 6px #ffffff40;
+  }
+
+  .weedtypes p {
+  }
+
+  .weedtypes__button {
+    display: block;
+    margin: 15px auto 0;
+    padding: 18px 95px 18px 74px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 14.5px 0px #ffffff8c inset;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    letter-spacing: -1%;
+    text-align: center;
+  }
+
+  .weedtypes__button::after {
+    content: url("../images/vetoytrave.svg");
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 3px;
+  }
+
+  /* purposes */
+
+  .purposes {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .purposes__heading {
+    margin-bottom: 12px;
+  }
+
+  .purposes__img img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  /* legalite */
+
+  .legalite {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .legalite p {
+    font-family: "HelveticaNeueCyr";
+    color: white;
+    font-size: 13px;
+    line-height: 1.55;
+    text-align: center;
+    letter-spacing: -0.32px;
+  }
+
+  .legalite__heading {
+    margin-bottom: 12px;
+  }
+
+  .legalite__img img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  /* reviews */
+
+  .reviews {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .reviews h2:last-of-type {
+    margin-bottom: 20px;
+  }
+
+  .reviews__item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  /* glider */
+
+  .glide__track {
+    margin-top: 20px;
+  }
+
+  .glide__slides {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .glide__arrows {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .glide__arrow {
+    background-color: transparent;
+    width: 50px;
+    border: none;
+  }
+
+  .glide__arrow:last-child {
+    transform: rotate(180deg);
+  }
+
+  /* culture */
+
+  .culture {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .culture__heading {
+    margin-bottom: 12px;
+  }
+
+  .culture__heading--cart {
+    margin-bottom: 12px;
+    font-size: 24px;
+  }
+
+  .culture__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-top: 20px;
+  }
+
+  .culture__cart {
+    font-family: "HelveticaNeueCyr";
+    padding: 3px;
+    color: white;
+    background: #181818;
+    border: 0.5px solid #606060;
+    border-radius: 5px;
+  }
+
+  .culture__content {
+    padding: 10px 8px 2px;
+  }
+
+  .culture__cart h3 {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .culture__button {
+    display: block;
+    margin: 35px auto 0;
+    padding: 20px 74px 20px 53px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    background-color: #d41d3a;
+    color: white;
+    box-shadow: 0px 0px 14.5px 0px #ffffff8c inset;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    letter-spacing: -1%;
+  }
+
+  .culture__button::after {
+    content: url("../images/vetoytrave.svg");
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 3px;
+  }
+
+  /* group */
+
+  .culture {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .culture__heading {
+    margin-bottom: 12px;
+  }
+
+  .culture__heading--cart {
+    margin-bottom: 12px;
+    font-size: 24px;
+  }
+
+  /* group */
+
+  .group img {
+    width: 182px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .group p {
+    margin-top: 20px;
+  }
+
+  .group--input {
+    font-family: "HelveticaNeueCyr";
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 20px 28px 20px 20px;
+    border-radius: 8px;
+    border: none;
+    width: 290px;
+  }
+
+  .group--input::placeholder {
+    font-family: "HelveticaNeueCyr";
+    color: #d2d2d2;
+  }
+
+  .group__button {
+    display: block;
+    margin: 10px auto 0;
+    padding: 20px 60px 20px 43px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+    background-color: #d41d3a;
+    color: white;
+    box-shadow: 0px 0px 14.5px 0px #ffffff8c inset;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    letter-spacing: -1%;
+  }
+
+  .group__button::after {
+    content: url("../images/vetoytrave.svg");
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 3px;
+  }
+
+  /* cards */
+
+  .cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .cards__item {
+    border-radius: 5px;
+    height: 221px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-repeat: no-repeat;
+  }
+
+  .cards__item:first-child {
+    margin-bottom: 15px;
+  }
+
+  .cards__item--1 {
+    background-image: url("../images/cards/1.svg");
+    background-color: #bb3cff;
+  }
+
+  .cards__item--2 {
+    background-image: url("../images/cards/2.svg");
+    background-color: #98ccef;
+  }
+
+  .cards__button {
+    color: white;
+    border: none;
+    background-color: #d41d3a;
+    box-shadow: 0px 0px 10.09px 0px #ffffff8c inset;
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 17px 31px;
+    border-radius: 4px;
+    margin-top: auto;
+  }
+
+  /* footer */
+
+  .footer {
+    padding-top: 22px;
+    border-top: 1px solid #282828;
+    color: #bababa;
+    font-size: 0.875rem;
+    background-color: black;
+    overflow: hidden;
+    line-height: 1.86;
+  }
+
+  .footer__block {
+    margin-bottom: 23px;
+  }
+
+  .footer__block img {
+    display: inline;
+  }
+
+  .footer__block h3 {
+    color: #d41d3a;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .footer__block ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* payments */
+
+  .payments {
+    border-top: 1px solid #282828;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+
+  .payments__images {
+    margin-top: 10px;
+  }
+
+  .payments__images img {
+    display: inline;
+  }
+
+  /* guarantees */
+
+  .guarantees {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .guarantees__heading {
+    margin-bottom: 12px;
+  }
+
+  .guarantees__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 20px;
+  }
+
+  .guarantees__cart {
+    font-family: "Helvetica";
+    padding: 3px;
+    color: #010101;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .guarantees img {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .guarantees__content {
+    padding: 10px 8px 2px;
+  }
+
+  .guarantees__cart h3 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .guarantees p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
 }
